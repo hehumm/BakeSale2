@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>BakeSale2.Domain</AssemblyName>
-    <RootNamespace>BakeSale2.Domain</RootNamespace>
+    <AssemblyName>BakeSale2.Services</AssemblyName>
+    <RootNamespace>BakeSale2.Services</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

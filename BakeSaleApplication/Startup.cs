@@ -1,3 +1,4 @@
+using BakeSale2.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
@@ -21,6 +22,8 @@ namespace BakeSale2.BakeSaleApplication
         {
 
             services.AddControllersWithViews();
+
+            services.AddScoped<IVendor, Vendor>();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
